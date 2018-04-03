@@ -26,3 +26,4 @@ USB: Yes 1 x 2.0
 # Table Of Content
 # Index
 # Contacts
+You will need some patches to run this board with FreeBSD current. Please contact me if you wish to do so.  
