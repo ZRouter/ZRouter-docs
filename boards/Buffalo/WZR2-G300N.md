@@ -25,9 +25,6 @@ USB: No
 # Table Of Content
 # Index
 # Things I learned
-* Do not flash with WiFi on. Radio interference may affect contents so you will have to flash again.
-* If you have problems using vi (vi: No terminal database found) through ssh, try setting TERM=xterm.
-* If SSH does not start automatically at boot, enable ssh spawning through inetd.conf.
 
 # Contacts
 You will need some patches to run this board with FreeBSD current. Please contact me if you wish to do so.
