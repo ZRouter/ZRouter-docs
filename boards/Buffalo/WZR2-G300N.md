@@ -1,1 +1,43 @@
 
+%{TOC}
+
+# Intro
+
+
+# Basic Functions
+
+Info copied from: https://wikidevi.com/wiki/Buffalo_WZR2-G300N
+
+Architecture: ARM  
+Vendor: Ralink  
+Bootloader: U-BOOT  
+System-On-Chip: RT1310  
+CPU/Speed 320 Mhz  
+Flash-Chip:   
+Flash size: 4 MiB  
+RAM: 16 MiB   
+Wireless:   
+Ethernet: Builtin two port(fv) 
+USB: No  
+
+# Supported Profiles
+# Hardware Dependent features
+# Table Of Content
+# Index
+# Things I learned
+* Do not flash with WiFi on. Radio interference may affect contents so you will have to flash again.
+* If you have problems using vi (vi: No terminal database found) through ssh, try setting TERM=xterm.
+* If SSH does not start automatically at boot, enable ssh spawning through inetd.conf.
+
+# Contacts
+You will need some patches to run this board with FreeBSD current. Please contact me if you wish to do so.
+
+# Flash
+
+```
+5VT1310-EVB# tftpboot 00800000 Buffalo_WZR2-G300N.zimage
+5VT1310-EVB# erase 0x1F010000 0x1F3CFFFF
+5VT1310-EVB# cp.b 800000 0x1F010000 $(filesize)
+```
+
+also setenv to ipaddr and serverip.
