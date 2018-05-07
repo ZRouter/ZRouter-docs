@@ -37,4 +37,4 @@ You will need some patches to run this board with FreeBSD current. Please contac
 5VT1310-EVB# cp.b 800000 0x1F010000 $(filesize)
 ```
 
-also setenv to ipaddr and serverip.
+also setenv to ipaddr and serverip for your network.
