@@ -39,3 +39,15 @@ You will need some patches to run this board with FreeBSD current. Please contac
 ```
 
 also setenv to ipaddr and serverip for your network.
+
+# Flash map
+
+```
+0x00000000-0x0000e000 : "uboot"
+0x0000e000-0x00010000 : "uboot_environ"
+0x00010000-0x000c0000 : "linux"
+0x000c0000-0x003d0000 : "rootfs"
+0x003d0000-0x003e0000 : "user_property"
+0x003e0000-0x003f0000 : "factory_default"
+0x003f0000-0x00400000 : "nvram"
+```
