@@ -9,7 +9,7 @@
 Info copied from: https://wikidevi.com/wiki/Buffalo_WZR2-G300N
 
 Architecture: ARM  
-Vendor: Ralink  
+Vendor: Ralink(5VTechnologies)  
 Bootloader: U-BOOT  
 System-On-Chip: RT1310  
 CPU/Speed 320 Mhz  
