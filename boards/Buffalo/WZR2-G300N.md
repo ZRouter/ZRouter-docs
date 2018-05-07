@@ -40,7 +40,7 @@ You will need some patches to run this board with FreeBSD current. Please contac
 
 also setenv to ipaddr and serverip for your network.
 
-# Flash map
+# Original Flash map
 
 ```
 0x00000000-0x0000e000 : "uboot"
