@@ -18,6 +18,7 @@ Flash size: 4 MiB
 RAM: 16 MiB   
 Wireless:   
 Ethernet: Builtin two port(fv) 
+Ethernet switch: IP175C
 USB: No  
 
 # Supported Profiles
